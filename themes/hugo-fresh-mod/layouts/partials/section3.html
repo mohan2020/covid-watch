@@ -12,17 +12,18 @@
 
     <div class="content-wrapper">
         <div class="tile is-ancestor">
-            <div class="tile is-6 is-parent">
+            <div class="tile is-12 is-parent">
               <div class="tile is-child box">
                 {{- range $tiles}}
-                <h2 class="title is-2 has-text-centered">Clinical</h2>
+                {{/*  <h2 class="title is-2 has-text-centered">Clinical</h2>  */}}
                 {{/*  <p class="is-size-5">{{ .text1 | markdownify }}</p> <br />
                 <p class="is-size-5">{{ .text2 | markdownify }}</p> <br />
                 <p class="is-size-5">{{ .text3 | markdownify }}</p>  */}}
-                <img src="{{ printf "/images/illustrations/icons/clinical.criteria.png" .icon | relURL }}">
+                <img src="{{ printf "/images/illustrations/icons/%s.png" .icon | relURL }}">
               </div>
+                {{- end }}
             </div>
-            <div class="tile is-parent">
+            {{/*  <div class="tile is-parent">
               <div class="tile is-child box">
                 <h2 class="title is-2 has-text-centered">Administrative</h2>
                 <p class="is-size-5">{{ .text4 | markdownify }}</p> <br/>
@@ -32,7 +33,7 @@
                 <p class="is-size-5">{{ .text8 | markdownify }}</p> <br />
                 {{- end }}
               </div>
-            </div>
+            </div>  */}}
           </div>
     </div>
   </div>

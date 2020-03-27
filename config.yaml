@@ -136,10 +136,10 @@ params:
       icon: pbj
   section3:
     title: Eligibility Criteria
-    subtitle: Proven. Used at Scale.
+    subtitle: Criteria may vary. Preliminary guidelines below.
     tiles:
     - title: 
-      icon: results
+      icon: criteria
       text1: 
       text2: 
       text3: 
@@ -191,10 +191,10 @@ params:
     socialmedia:
     - link: https://pennmedicine.org
       icon: pennmed.png
+    - link: http://waytohealth.org/
+      icon: waytohealth2.png      
     - link: https://healthcareinnovation.upenn.edu/
       icon: chci2.png
-    - link: http://waytohealth.org/
-      icon: waytohealth2.png
     bulmalogo: false
     product:
     - text: Discover features
