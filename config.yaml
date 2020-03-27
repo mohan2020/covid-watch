@@ -191,8 +191,6 @@ params:
     socialmedia:
     - link: https://pennmedicine.org
       icon: pennmed.png
-    - link: http://www.uphs.upenn.edu/obgyn/
-      icon: pennmedicineobgynlogo.svg
     - link: https://healthcareinnovation.upenn.edu/
       icon: chci2.png
     - link: http://waytohealth.org/
