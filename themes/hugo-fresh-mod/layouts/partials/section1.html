@@ -1,9 +1,11 @@
 {{- $section1 := .Site.Params.section1 }}
 {{- $title    := index $section1 "title" }}
 {{- $subtitle := index $section1 "subtitle" }}
+{{- $title2    := index $section1 "title2" }}
+{{- $subtitle2 := index $section1 "subtitle2" }}
 {{- $tiles    := index $section1 "tiles" }}
 {{- $tiles2   := index $section1 "tiles2" }}
-<section class="section is-medium" style="background-color: #e7e7e7;"  id="section1">
+<section class="section is-medium" style="background-color:white;"  id="section1">
   <div class="container">
     <div class="title-wrapper has-text-centered">
       <h2 class="title is-2">{{ $title }}</h2>
@@ -32,6 +34,15 @@
         </div>
         {{- end }}
       </div>
+    </div>
+    <br/><br/><br/>
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title2 }}</h2>
+      <h3 class="subtitle is-5">{{ $subtitle2 }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+    <div class="content-wrapper">
       <div class="columns">
         {{- range $tiles2 }}
         <div class="column is-one-third">
@@ -52,6 +63,7 @@
         </div>
         {{- end }}
       </div>
+    </div>
     </div>
   </div>
 </section>

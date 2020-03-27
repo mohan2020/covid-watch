@@ -2,11 +2,11 @@
 {{- $title    := index $section3 "title" }}
 {{- $subtitle := index $section3 "subtitle" }}
 {{- $tiles    := index $section3 "tiles" }}
-<section class="section section-feature-grey is-medium" style="background-color:#a38ebc;" id="section3">
+<section class="section section-feature-grey is-medium" style="background-color: #3498db;;" id="section3">
   <div class="container">
     <div class="title-wrapper has-text-centered">
       <h2 class="title is-2" style="color:aliceblue;"> {{ $title }}</h2>
-      <!-- <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3> -->
+      <h3 class="subtitle is-5" style="color:aliceblue;">{{ $subtitle }}</h3>
       <div class="divider is-centered"></div>
     </div>
 
@@ -15,16 +15,21 @@
             <div class="tile is-6 is-parent">
               <div class="tile is-child box">
                 {{- range $tiles}}
-                <!-- <p class="title">One</p> -->
-                <img src="{{ printf "/images/illustrations/icons/%s.jpg" .icon | relURL }}">
+                <h2 class="title is-2 has-text-centered">Clinical</h2>
+                {{/*  <p class="is-size-5">{{ .text1 | markdownify }}</p> <br />
+                <p class="is-size-5">{{ .text2 | markdownify }}</p> <br />
+                <p class="is-size-5">{{ .text3 | markdownify }}</p>  */}}
+                <img src="{{ printf "/images/illustrations/icons/clinical.criteria.png" .icon | relURL }}">
               </div>
             </div>
             <div class="tile is-parent">
               <div class="tile is-child box">
-                <!-- <p class="title">Three</p> -->
-                <p>{{ .text1 | markdownify }}</p> <br/>
-                <p>{{ .text2 | markdownify }}</p> <br/>
-                <p>{{ .text3 | markdownify }}</p>
+                <h2 class="title is-2 has-text-centered">Administrative</h2>
+                <p class="is-size-5">{{ .text4 | markdownify }}</p> <br/>
+                <p class="is-size-5">{{ .text5 | markdownify }}</p> <br/>
+                <p class="is-size-5">{{ .text6 | markdownify }}</p> <br />
+                <p class="is-size-5">{{ .text7 | markdownify }}</p> <br />
+                <p class="is-size-5">{{ .text8 | markdownify }}</p> <br />
                 {{- end }}
               </div>
             </div>

@@ -33,14 +33,14 @@ params:
   navbar:
   - title: Why Covid-19 Watch
     url: /#section1
-  - title: The Need
-    url: /#section3
+  # - title: Need & Approach
+  #   url: /#section3
+  - title: Eligibility
+    url: /#section3  
   - title: Program Features
     url: /#section4
   # - title: The Team
   #   url: /#section6
-  - title: FAQ
-    url: /#section2
   - title: How To
     url: /#section7
   sidebar:
@@ -78,38 +78,40 @@ params:
       - text: App settings
         url: /
   section1:
-    title: Why Heart Safe Motherhood?
-    subtitle: Hypertension is a leading cause of maternal morbidity and mortality.  Heart Safe Motherhood was created to improve care for mothers with hypertension after delivery and change those statistics.
+    title: Why COVID-19 Watch?
+    subtitle: The needs we are trying to address
     tiles:
-    - title: Preventable Death
+    - title: Home Isolation
       icon: person
-      text: 1 in 5 of the 700 maternal deaths each year in the US are linked to preeclampsia.
+      text: Patients infected with COVID-19 should stay home unless they need hospital care—typically to manage hypoxemia
       url: /
       buttonText: 
-    - title: Preventable Disease
+    - title: Automate monitoring
       icon: multiply
-      text: For every maternal death in the United States, there are about 100 episodes of severe maternal morbidity.
+      text: Automate the monitoring of potentially large numbers of patients who are sheltering at home
       url: /
       buttonText: 
-    - title: ACOG Guidelines
+    - title: Escalation on need
       icon: acogtiming_grey
-      text: Guidelines recommend monitoring BP at 72 hours and 7-10 days postpartum in at-risk women.
+      text: Reassure low level concern, but escalate legitimate concern. We recognize that distinction is often hard to make
       url: /
       buttonText:
+    title2: Our approach
+    subtitle2: Program design strategy
     tiles2: 
-    - title: Patient-Centered
+    - title: Patient friendly
       icon: telemedicine
-      text: With a new baby at home, frequent in-person visits are not feasible. We can care for women in a better way.
+      text: Enroll selected patients into a simple automated text-based program. Check-in 2x daily largely focused on breathing. 
       url: /
       buttonText: 
     - title: Provider-Friendly
       icon: doctor
-      text: Heart Safe Motherhood makes remote monitoring easy so that you can focus on caring for your patients.
+      text: Enroll qualified patients into the program via PennChart using the Way to Health embed. No logins needed. 
       url: /
       buttonText:
-    - title: Evidence-Based Model
+    - title: Escalate as needed
       icon: badge
-      text: Our model is supported by published results from a [randomized controlled trial](https://qualitysafety.bmj.com/content/27/11/871.long) and [rapid-cycle testing](https://www.mdedge.com/jcomjournal/article/146153/womens-health/rapid-cycle-innovation-testing-text-based-monitoring).
+      text: Escalations are to the Penn Medicine OnDemand nurses, physicians and APPs via pool notifications.
       url: /
       buttonText: 
   section2:
@@ -133,7 +135,7 @@ params:
       text: 
       icon: pbj
   section3:
-    title: The Evidence
+    title: Eligibility Criteria
     subtitle: Proven. Used at Scale.
     tiles:
     - title: 
@@ -141,16 +143,21 @@ params:
       text1: In 2017, we completed a [randomized controlled trial](https://qualitysafety.bmj.com/content/27/11/871.long) comparing Heart Safe Motherhood to the usual care of one-time, office-based blood pressure checks. 
       text2: We found an increase in our ability to obtain at least one blood pressure within ten days of discharge in 92% of patients using text messaging, compared to 44% in usual care.  We met ACOG guidelines in 80% of our patients.  Readmissions dropped to zero percent among remote monitored women in the trial. 
       text3: Heart Safe Motherhood not only enables real-time notification of severely elevated blood pressures, but also sheds light on blood pressure trends over time and allows providers to request additional blood pressure readings to follow-up on medication changes.  By adapting algorithms from office visit care, we are able safely to start antihypertensive medications remotely prior to the development of morbidity and direct the right women to in-person care at the right time.
+      text4: Patient with Penn Medicine PCP
+      text5: UP or UPHS employee using Penn Medicine On Demand
+      text6: Patients who test positive through occupational health
+      text7: Patients who test positive via tests ordered at by Penn clinicians (e.g., drive thru, ED)
+      text8: May later open up to other Penn Medicine patients
       url: /
       buttonText:
   section4: 
     title: Program Features
-    subtitle: Codifying Shared Knowledge
+    subtitle: Simple. Embedded. No downloads. No logins.
     icon1: patient
     icon2: provider
     tiles:
-    - title: Patient engagement
-      text: On the day after discharge, patients start on a remote monitoring protocol with automated reminders and feedback over a ten-day surveillance period enabled by [Way to Health](https://www.waytohealth.org), a Penn-developed platform for evidence-based, personalized engagement strategies.
+    - title: Text based
+      text: Non aliquam in ducimus et ipsam a voluptas vel dolor. Et nostrum quis quos enim magni aut ab et. Numquam eaque non natus delectus ut error. Ut molestiae culpa ut tenetur libero officia consequuntur.
     - title: Efficient automation
       text:  Providers focus on the information they need to know through alerts and dashboards.  Providers are alerted only when blood pressures are high enough to necessitate intervention.
     - title: Real-world expertise
