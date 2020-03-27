@@ -194,7 +194,7 @@ params:
     - link: http://waytohealth.org/
       icon: waytohealth2.png      
     - link: https://healthcareinnovation.upenn.edu/
-      icon: chci2.png
+      icon: hcilogo3.png
     bulmalogo: false
     product:
     - text: Discover features
