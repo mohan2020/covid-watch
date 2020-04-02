@@ -81,7 +81,7 @@ params:
     title: Why COVID-19 Watch?
     subtitle: The needs we are trying to address
     tiles:
-    - title: Home Isolation
+    - title: Home isolation
       icon: person
       text: Patients infected with COVID-19 should stay home unless they need hospital care—typically to manage hypoxemia.
       url: /
@@ -104,14 +104,14 @@ params:
       text: Enroll selected patients into a simple automated text-based program. Check-in 2x daily largely focused on breathing. 
       url: /
       buttonText: 
-    - title: Provider-Friendly
+    - title: Provider friendly
       icon: doctor
       text: Enroll qualified patients into the program via PennChart using the Way to Health embed. No logins needed. 
       url: /
       buttonText:
     - title: Escalate as needed
       icon: badge
-      text: Escalations are to the Penn Medicine OnDemand nurses, physicians and APPs via pool notifications.
+      text: Issues are escalated to the Penn Medicine OnDemand nurses, physicians and APPs via pool notifications.
       url: /
       buttonText: 
   section2:
