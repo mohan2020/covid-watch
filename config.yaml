@@ -41,8 +41,8 @@ params:
   #   url: /#section4
   # - title: The Team
   #   url: /#section6
-  # - title: How To
-  #   url: /#section7
+  - title: How To @ Penn
+    url: /#section10
   sidebar:
     # Logo (from /images/logos/___.svg)
     logo: fresh-square
@@ -184,6 +184,63 @@ params:
       job: Assistant Professor of Clinical Obstetrics and Gynecology. <br/><br/>Co-Founder and Director of Clinical Operations, Heart Safe Motherhood
       img: adihirshbergheadshot
       link: https://www.pennmedicine.org/providers/profile/adi-hirshberg
+  section10:
+    title: COVID Watch - Patient Enrollment Protocol
+    subtitle: Updated April 1, 2020
+    summary: This is a PennMedicine home symptom monitoring program for patients who are self-isolating at home. It automatically checks in with enrolled COVID-19 positive or symptomatic patients twice a day for 14 days via SMS text. If a patient reports severe dyspnea during this time, they will be escalated to an RN pool. RN will triage to ED, urgent (within 1 hour) evaluation by on-call MD, or back to PCP (or PMOD if no PCP) for non-urgent evaluation.
+    pathway: pathway
+    faqs:
+    - question: Why should I refer my patients to COVID Watch?
+      answer: With daily monitoring, we hope to quickly identify and facilitate escalations of legitimately concerning patients who are most at risk of hypoxemia and/or severe pulmonary distress, while reducing the ED volume of low-level concern patients with mild cases and do not require hospitalization.
+    - question: Who should I refer to COVID Watch?
+      answer: Patients who are COVID-19 positive (symptomatic or asymptomatic), COVID pending, or have significant respiratory symptoms concerning for Covid. Essentially, anyone who you know has COVID, or who you are suspicious has COVID. In general, you can refer to COVID Watch at the time you place the test. Given low sensitivity of COVID testing, a negative test does not necessarily indicate true COVID negative status
+    - question: What about patients who need an in-person assessment?
+      answer: If the patient is unable to text, needs in person home healthcare, or requires monitoring of pulse oximetry due to advanced lung or cardiac disease should be referred to Penn Care at Home (via Epic). Home care can evaluate the patient within 24-36 hrs, get vital signs, leave home monitoring equipment (e.g., pulse ox), and has a more intensive home monitoring program.
+    - question: Who is checking these messages?
+      answer: If a patient indicates that their breathing is worse in the text, a notice is sent to a pool. This pool is covered by RNs during the day and APPs at night. The RN will triage the patient either directly to an ED, to an APP/physician call within an hour, or back to PCP or PMOD (if no PCP) for non-urgent follow-up.
+    script:
+    - heading: Enrollment Script
+      instruction: >-
+        - *We can enroll you into our “COVID Watch” program for the next 14 days. In this program we will help monitor your symptoms and assist you if your symptoms escalate. We will text you twice a day to quickly check in. If your symptoms make breathing difficult, a nurse or doctor will call you. If your symptoms get worse, you can also text to request a check-in. This service does not replace 911. If you ever reach a point where you feel you need to call 911, you should do so. Is this a program you would like to be a part of?*
+        
+        - **If YES, confirm patient has a cell phone**
+        
+        - Enroll patient into ​COVID Watch​ (steps to access Way to Health outlined below).
+
+        - *Can you confirm XXX-XXX-XXXX is your cell phone, and that it can receive text messages?*
+
+        - **If NO OR patient does not have a cell phone**
+        
+        - Patient cannot be enrolled into the COVID Watch program. Reinforce to patient that they should contact their PCP with non-urgent issues and call 911 if severe SOB or for emergencies.
+      image:
+    - heading: Please document every time you offer a patient COVID Watch using one PennChart SmartPhrase
+      instruction: >-
+        - Documentation of encounter is crucial to ensure accurate tracking of the program and reporting. <br/>
+        
+        - **.COVIDWATCHDECLINED**​ documents patient declining enrollment into the program. <br/>
+        
+        - **.COVIDWATCHENROLL**​ documents verbal agreement to be enrolled, and patient’s COVID status and current symptoms.
+      image:
+    - heading: How to enroll patients in COVID Watch in PennChart
+      instruction: >- 
+        From the patient chart, click “​More​” > “​Way to Health​”.   
+      image: w2hlink
+    - heading: Click the ​“Get Read Only Access”​ button
+      instruction: >-
+        Only needed if this is your first time accessing
+      image: w2haccess
+    - heading: In the list of programs shown, _​COVID-19 WATCH​ is the first one on the list. 
+      instruction: >- 
+        Click the “Enroll” button to start the patient in the program.
+      image: w2henroll
+    - heading: Verify the phone number & update if needed
+      instruction: >- 
+        - **This MUST be a cell phone number that accepts text messages**.
+        
+        - Note​ - Phone number pulled here is from PennChart, but updating the phone number within Way to Health ​will not ​update PennChart.
+        
+        - Click the “Enroll” button. Upon enrollment, the patient will receive a welcome text message.
+      image: w2hphone
   footer:
     # Logo (from /images/logos/___)
     logo: nc.svg

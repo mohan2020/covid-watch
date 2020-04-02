@@ -1,0 +1,51 @@
+{{- $section10 := .Site.Params.section10 }}
+{{- $title    := index $section10 "title" }}
+{{- $subtitle := index $section10 "subtitle" }}
+{{- $faqs    := index $section10 "faqs" }}
+{{- $script    := index $section10 "script" }}
+{{- $icon1    := index $section10 "pathway" }}
+{{- $icon2    := index $section10 "icon2" }}
+<section class="section section-feature-grey is-medium" style="background-color: #FFF;" id="section10">
+    <div class="container">
+      <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2" > {{ $title }}</h2>
+        <!-- <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3> -->
+        <div class="divider is-centered"></div>
+      </div>
+      <div class="content-wrapper ">
+              {{- range $faqs }}
+              <div class="columns">
+                  <div class="column is-4"><h4 class="is-size-5 has-text-weight-semibold">{{ .question }}</h4></div> 
+                  <div class="column is-8 "><p class="is-size-5">{{ .answer | markdownify }}</p></div>
+              </div>
+              <hr>
+              {{- end }}
+              <h4 class="is-size-5 has-text-weight-semibold">Escalation Pathway</h4>
+              <img src="{{ printf "/images/illustrations/icons/%s.png" $icon1 | relURL }}">
+        </div>
+    </div>
+</section>
+<section class="section section-feature-grey is-medium" style="background-color:#ecf0f1;" id="section10">
+  <div class="container">
+      <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2"> Step by Step Tip Sheet</h2>
+        <!-- <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3> -->
+        <div class="divider is-centered"></div>
+      </div>
+      <div class="content-wrapper">
+        {{- range $script }}
+        <div class="columns">
+          <div class="column is-4">
+            <h4 class="is-size-5 has-text-weight-semibold">{{ .heading }}</h4>
+          </div>
+          <div class="column is-8 ">
+            <p class="is-size-5">{{ .instruction | markdownify }}</p>
+            {{ if .image }} <img src="{{ printf "/images/illustrations/icons/%s.png" .image | relURL }}"> {{ end }}
+          </div>
+        </div>
+        <hr>
+        {{- end }}
+      </div>
+      </div>
+    </div>
+  </section>
