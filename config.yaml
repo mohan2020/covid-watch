@@ -101,7 +101,7 @@ params:
     tiles2: 
     - title: Patient friendly
       icon: telemedicine
-      text: Enroll selected patients into a simple automated text-based program. Check-in 2x daily largely focused on breathing. 
+      text: Enroll selected patients into a simple automated text-based program. Check-in 2x daily for 14 days. Largely focused on breathing. 
       url: /
       buttonText: 
     - title: Provider friendly
@@ -109,9 +109,9 @@ params:
       text: Enroll qualified patients into the program via PennChart using the Way to Health embed. No logins needed. 
       url: /
       buttonText:
-    - title: Escalate as needed
+    - title: Evaluate as needed
       icon: badge
-      text: Issues are escalated to the Penn Medicine OnDemand nurses, physicians and APPs via pool notifications.
+      text: Clinical concerns are escalated to the Penn Medicine OnDemand nurses, physicians and APPs via pool notifications.
       url: /
       buttonText: 
   section2:
@@ -185,7 +185,7 @@ params:
       img: adihirshbergheadshot
       link: https://www.pennmedicine.org/providers/profile/adi-hirshberg
   section10:
-    title: COVID Watch - Patient Enrollment Protocol
+    title: COVID Watch - Patient Enrollment FAQ
     subtitle: Updated April 1, 2020
     summary: This is a PennMedicine home symptom monitoring program for patients who are self-isolating at home. It automatically checks in with enrolled COVID-19 positive or symptomatic patients twice a day for 14 days via SMS text. If a patient reports severe dyspnea during this time, they will be escalated to an RN pool. RN will triage to ED, urgent (within 1 hour) evaluation by on-call MD, or back to PCP (or PMOD if no PCP) for non-urgent evaluation.
     pathway: pathway
