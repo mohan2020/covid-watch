@@ -238,6 +238,8 @@ params:
         - **This MUST be a cell phone number that accepts text messages**.
         
         - Note​ - Phone number pulled here is from PennChart, but updating the phone number within Way to Health ​will not ​update PennChart.
+
+        - Ask patient if there is a Penn Medicine PCP or provider (i.e. specialist) who should be copied on updates while he/she is enrolled in COVID Watch. Fill in as needed. Enter N/A if none specified. 
         
         - Click the “Enroll” button. Upon enrollment, the patient will receive a welcome text message.
       image: w2hphone
