@@ -1,6 +1,6 @@
 baseURL: /
 languageCode: en-us
-title: The Covid-19 Watch Program
+title: The COVID Watch Program
 theme: hugo-fresh-mod
 
 params:
@@ -9,7 +9,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Covid Watch
+    title: COVID Watch
     # Hero subtitle (optional)
     subtitle: A Penn Medicine program that automatically checks in with patients at risk for complications of COVID-19 who are self-isolating at home
     # Button text Seamless enrollment. Remote Monitoring. Clinical Escalation
@@ -31,7 +31,7 @@ params:
     - screening
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Why Covid-19 Watch
+  - title: Why COVID Watch
     url: /#section1
   # - title: Need & Approach
   #   url: /#section3
