@@ -23,17 +23,17 @@ Cards and Card content styles
         margin-top: 20px;
     }
     .card-text {
-        padding: 0 40px;
+        padding: 0 20px;
         p {
-            color: $muted-grey;
+            color: $grey;
         }
     }
     .card-action {
         margin-top: 10px;
     }
-    &.is-bordered {
-        border: 1px solid $fade-grey;
-    }
+    // &.is-bordered {
+    //     border: 1px solid $fade-grey;
+    // }
 }
 
 // Flex Card

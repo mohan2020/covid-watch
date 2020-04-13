@@ -6542,13 +6542,11 @@ Cards and Card content styles
     height: 120px;
     margin-top: 20px; }
   .feature-card .card-text {
-    padding: 0 40px; }
+    padding: 0 20px; }
     .feature-card .card-text p {
-      color: #999; }
+      color: #7a7a7a; }
   .feature-card .card-action {
     margin-top: 10px; }
-  .feature-card.is-bordered {
-    border: 1px solid #ededed; }
 
 .flex-card {
   position: relative;

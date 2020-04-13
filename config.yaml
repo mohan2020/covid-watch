@@ -9,15 +9,15 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: The Covid-19 Watch Program
+    title: Covid Watch
     # Hero subtitle (optional)
-    subtitle: An automated program to help Penn Medicine manage potentially large numbers of patients we are concerned about.
+    subtitle: A Penn Medicine program that automatically checks in with patients at risk for complications of COVID-19 who are self-isolating at home
     # Button text Seamless enrollment. Remote Monitoring. Clinical Escalation
     buttontext: Learn More
     # Where the main hero button links to
     buttonlink: "#section7"
     # Hero video
-    image: illustrations/icons/dailycheckin.png
+    image: illustrations/icons/dailycheckin2.png
     # image placeholder for video (from /images/illustrations/icons/placeholder.png)
     # text below explaing HSM
     #subtitle2: 
@@ -78,40 +78,40 @@ params:
       - text: App settings
         url: /
   section1:
-    title: Why COVID-19 Watch?
-    subtitle: The needs we are trying to address
+    title: Why COVID Watch?
+    subtitle: 
     tiles:
-    - title: Home isolation
+    - title: Support home isolation, prevent unnecessary exposure
       icon: person
-      text: Patients infected with COVID-19 should stay home unless they need hospital care—typically to manage hypoxemia.
+      text: COVID-19 patients should self-isolate unless they need care — typically for hypoxemia.
       url: /
       buttonText: 
-    - title: Automate monitoring
+    - title: Automated daily check-ins with affected patients
       icon: multiply
-      text: Automate the monitoring of potentially large numbers of patients who are sheltering at home.
+      text: Check-in twice daily with patients to see how they are feeling and provide reassurance.
       url: /
       buttonText: 
-    - title: Escalation on need
+    - title: Get patients the care they need at the right time
       icon: acogtiming_grey
-      text: Reassure patients who are doing well, but escalate care when needed. 
+      text: Quickly identify patients who need medical attention and escalate their care to a provider or Emergency Department. 
       url: /
       buttonText:
-    title2: Our approach
-    subtitle2: Program design strategy
+    title2: Our Approach
+    subtitle2: 
     tiles2: 
     - title: Patient friendly
       icon: telemedicine
-      text: Enroll selected patients into a simple automated text-based program. Check-in 2x daily for 14 days. Largely focused on breathing. 
+      text: COVID Watch is a simple text-based program that checks in to assess how patients are feeling and if they are having difficulty breathing.
       url: /
       buttonText: 
     - title: Provider friendly
       icon: doctor
-      text: Enroll qualified patients into the program via PennChart using the Way to Health embed. No logins needed. 
+      text: Providers across the health system, from primary care to ED to hospital medicine, can enroll patients in PennChart using Way to Health. No new logins needed.
       url: /
       buttonText:
     - title: Evaluate as needed
       icon: badge
-      text: Clinical concerns are escalated to the Penn Medicine OnDemand nurses, physicians and APPs via pool notifications.
+      text: Clinical concerns are escalated immediately to Penn Medicine OnDemand nurses, physicians and APPs via PennChart. 
       url: /
       buttonText: 
   section2:
@@ -136,10 +136,10 @@ params:
       icon: pbj
   section3:
     title: Eligibility Criteria
-    subtitle: Criteria may vary. Preliminary guidelines below.
+    subtitle: Preliminary Penn Medicine Guidelines
     tiles:
     - title: 
-      icon: criteria
+      icon: criteria2
       text1: 
       text2: 
       text3: 
@@ -172,32 +172,32 @@ params:
     buttonLink: "#"
   section6:
     title: The Team
-    subtitle: We are Maternal Fetal Medicine specialists with an interest in preeclampsia who care deeply about our patients, research, and innovation before, during, and after pregnancy.
+    subtitle: xx
     clients:
-    - name: Sindhu Srinivas, MD, MSCE
+    - name: xx
       quote: 
-      job: Director, Obstetrical Services, Hospital of the University of Pennsylvania. <br/><br/>Vice Chair of Quality and Safety, Department of Obstetrics and Gynecology. <br/> <br/>Associate Professor of Obstetrics and Gynecology. <br/><br/>Co-Founder and Medical Director, Heart Safe Motherhood
-      img: sindhusrinivasheadshot
-      link: https://www.pennmedicine.org/providers/profile/sindhu-srinivas
-    - name: Adi Hirshberg, MD
+      job: xx
+      img: xx
+      link: xx
+    - name: xx
       quote: 
-      job: Assistant Professor of Clinical Obstetrics and Gynecology. <br/><br/>Co-Founder and Director of Clinical Operations, Heart Safe Motherhood
-      img: adihirshbergheadshot
-      link: https://www.pennmedicine.org/providers/profile/adi-hirshberg
+      job: xx
+      img: xx
+      link: xx
   section10:
-    title: COVID Watch - Patient Enrollment FAQ
-    subtitle: Updated April 1, 2020
+    title: COVID Watch 
+    subtitle: FAQs for Providers
     summary: This is a PennMedicine home symptom monitoring program for patients who are self-isolating at home. It automatically checks in with enrolled COVID-19 positive or symptomatic patients twice a day for 14 days via SMS text. If a patient reports severe dyspnea during this time, they will be escalated to an RN pool. RN will triage to ED, urgent (within 1 hour) evaluation by on-call MD, or back to PCP (or PMOD if no PCP) for non-urgent evaluation.
-    pathway: pathway
+    pathway: pathway2
     faqs:
     - question: Why should I refer my patients to COVID Watch?
-      answer: With daily monitoring, we hope to quickly identify and facilitate escalations of legitimately concerning patients who are most at risk of hypoxemia and/or severe pulmonary distress, while reducing the ED volume of low-level concern patients with mild cases and do not require hospitalization.
+      answer: With daily monitoring, COVID Watch can help quickly identify and facilitate escalations of patients with symptoms concerning for hypoxemia and/or severe pulmonary distress, while reducing ED volume of less concerning patients with mild symptoms who do not require hospitalization.
     - question: Who should I refer to COVID Watch?
-      answer: Patients who are COVID-19 positive (symptomatic or asymptomatic), COVID pending, or have significant respiratory symptoms concerning for Covid. Essentially, anyone who you know has COVID, or who you are suspicious has COVID. In general, you can refer to COVID Watch at the time you place the test. Given low sensitivity of COVID testing, a negative test does not necessarily indicate true COVID negative status
-    - question: What about patients who need an in-person assessment?
-      answer: If the patient is unable to text, needs in person home healthcare, or requires monitoring of pulse oximetry due to advanced lung or cardiac disease should be referred to Penn Care at Home (via Epic). Home care can evaluate the patient within 24-36 hrs, get vital signs, leave home monitoring equipment (e.g., pulse ox), and has a more intensive home monitoring program.
-    - question: Who is checking these messages?
-      answer: If a patient indicates that their breathing is worse in the text, a notice is sent to a pool. This pool is covered by RNs during the day and APPs at night. The RN will triage the patient either directly to an ED, to an APP/physician call within an hour, or back to PCP or PMOD (if no PCP) for non-urgent follow-up.
+      answer: Patients have tested COVID-19 positive (symptomatic or asymptomatic), are COVID-pending, or have significant respiratory symptoms concerning for COVID-19. In general, providers can refer to COVID Watch at the time when a test is ordered. Given the current low sensitivity of COVID testing, a negative test does not necessarily indicated true negative status.
+    - question: Is this suitable for patients who need in-person evaluations?
+      answer: COVID Watch is currently only available for home-dwelling patients with cell phones that can send and receive texts. If a patient is unable to text, needs home health care, or requires of pulse oximetry due to advanced lung or cardiac disease, they should be referred to Penn Medicine Home Health (via PennChart). Home care can evaluate the patient within 24-36 hrs, get vital signs, leave home monitoring equipment (e.g. pulse ox), and can follow-up with a more intensive home monitoring program.
+    - question: Who responds to patient escalations?
+      answer: If a patient reports that their breathing has become difficult through COVID Watch, an escalation notice is sent to a dedicated group of nurses within PennChart. The RN will call and triage patients within an hour of the escalation and refer them directly to an ED, for urgent follow-up with an appointment with Penn Medicine on Demand, or to their PCP for non-urgent follow-up. Patients without a usual source of care will be referred to Penn Medicine on Demand.  The RNs are backed up by an on call APP and MD for any urgent issues, day or night.  
     script:
     - heading: Enrollment Script
       instruction: >-
