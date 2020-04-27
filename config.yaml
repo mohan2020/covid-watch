@@ -19,22 +19,11 @@ params:
     # Hero video
     image: illustrations/icons/dailycheckin2.png
     # image placeholder for video (from /images/illustrations/icons/placeholder.png)
-    # text below explaing HSM
     #subtitle2: 
-    # Footer logos (from /images/logos/clients/___.svg)
-    clientlogos:
-    - flu
-    - Statin
-    - generic
-    - mm
-    - cardiac
-    - screening
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Why COVID Watch
     url: /#section1
-  # - title: Need & Approach
-  #   url: /#section3
   - title: Eligibility
     url: /#section3  
   # - title: Program Features
@@ -43,40 +32,6 @@ params:
   #   url: /#section6
   - title: How To @ Penn
     url: /#section10
-  sidebar:
-    # Logo (from /images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
   section1:
     title: Why COVID Watch?
     subtitle: 
@@ -114,26 +69,6 @@ params:
       text: Clinical concerns are escalated immediately to Penn Medicine OnDemand nurses, physicians and APPs via PennChart. 
       url: /
       buttonText: 
-  section2:
-    title: Awards
-    subtitle: Multiple national and innovation awards
-    features:
-    - title: 
-      text: 
-      icon: aha2
-    - title: 
-      text: 
-      icon: aheart2
-    - title: 
-      text: 
-      icon: council2
-    features2:
-    - title: 
-      text: 
-      icon: vizient2
-    - title: 
-      text: 
-      icon: pbj
   section3:
     title: Eligibility Criteria
     subtitle: Preliminary Penn Medicine Guidelines
@@ -150,40 +85,6 @@ params:
       text8: May later open up to other Penn Medicine patients
       url: /
       buttonText:
-  section4: 
-    title: Program Features
-    subtitle: Simple. Embedded. No downloads. No logins.
-    icon1: patient
-    icon2: provider
-    tiles:
-    - title: Text based
-      text: Non aliquam in ducimus et ipsam a voluptas vel dolor. Et nostrum quis quos enim magni aut ab et. Numquam eaque non natus delectus ut error. Ut molestiae culpa ut tenetur libero officia consequuntur.
-    - title: Efficient automation
-      text:  Providers focus on the information they need to know through alerts and dashboards.  Providers are alerted only when blood pressures are high enough to necessitate intervention.
-    - title: Real-world expertise
-      text: The Heart Safe Motherhood approach to patient identification, education, engagement, monitoring, and management was developed over four years to maximize impact, convenience, ease of use, and patient safety.
-    - title: Continual innovation
-      text: Heart Safe Motherhood is continuously evolving as we find new ways to engage patients, improve provider experience, and maximize impact through real-world implementations and innovative research. 
-  section5:
-    title: Contact us for a demo
-    subtitle: ICYMI
-    image: illustrations/mockups/mockup2-min.png
-    buttonText: 
-    buttonLink: "#"
-  section6:
-    title: The Team
-    subtitle: xx
-    clients:
-    - name: xx
-      quote: 
-      job: xx
-      img: xx
-      link: xx
-    - name: xx
-      quote: 
-      job: xx
-      img: xx
-      link: xx
   section10:
     title: COVID Watch 
     subtitle: FAQs for Providers
@@ -193,7 +94,7 @@ params:
     - question: Why should I refer my patients to COVID Watch?
       answer: With daily monitoring, COVID Watch can help quickly identify and facilitate escalations of patients with symptoms concerning for hypoxemia and/or severe pulmonary distress, while reducing ED volume of less concerning patients with mild symptoms who do not require hospitalization.
     - question: Who should I refer to COVID Watch?
-      answer: Patients have tested COVID-19 positive (symptomatic or asymptomatic), are COVID-pending, or have significant respiratory symptoms concerning for COVID-19. In general, providers can refer to COVID Watch at the time when a test is ordered. Given the current low sensitivity of COVID testing, a negative test does not necessarily indicated true negative status.
+      answer: Patients have tested COVID-19 positive (symptomatic or asymptomatic), are COVID-pending, or have significant respiratory symptoms concerning for COVID-19. In general, providers can refer to COVID Watch at the time when a test is ordered. Given the current low sensitivity of COVID testing, a negative test does not necessarily indicate true negative status.
     - question: Is this suitable for patients who need in-person evaluations?
       answer: COVID Watch is currently only available for home-dwelling patients with cell phones that can send and receive texts. If a patient is unable to text, needs home health care, or requires of pulse oximetry due to advanced lung or cardiac disease, they should be referred to Penn Medicine Home Health (via PennChart). Home care can evaluate the patient within 24-36 hrs, get vital signs, leave home monitoring equipment (e.g. pulse ox), and can follow-up with a more intensive home monitoring program.
     - question: Who responds to patient escalations?
@@ -254,6 +155,103 @@ params:
       icon: waytohealth2.png      
     - link: https://healthcareinnovation.upenn.edu/
       icon: hcilogo3.png
+    # **********  IGNORE OR NOT USED below this line ********************************************
+  section4: 
+    title: Program Features
+    subtitle: Simple. Embedded. No downloads. No logins.
+    icon1: patient
+    icon2: provider
+    tiles:
+    - title: Text based
+      text: Non aliquam in ducimus et ipsam a voluptas vel dolor. Et nostrum quis quos enim magni aut ab et. Numquam eaque non natus delectus ut error. Ut molestiae culpa ut tenetur libero officia consequuntur.
+    - title: Efficient automation
+      text:  Pxx
+    - title: Real-world expertise
+      text: Txx
+    - title: Continual innovation
+      text: xx
+  section5:
+    title: Contact us for a demo
+    subtitle: ICYMI
+    image: illustrations/mockups/mockup2-min.png
+    buttonText: 
+    buttonLink: "#"
+  section6:
+    title: The Team
+    subtitle: xx
+    clients:
+    - name: xx
+      quote: 
+      job: xx
+      img: xx
+      link: xx
+    - name: xx
+      quote: 
+      job: xx
+      img: xx
+      link: xx
+  section2:
+    title: Awards
+    subtitle: Multiple national and innovation awards
+    features:
+    - title: 
+      text: 
+      icon: aha2
+    - title: 
+      text: 
+      icon: aheart2
+    - title: 
+      text: 
+      icon: council2
+    features2:
+    - title: 
+      text: 
+      icon: vizient2
+    - title: 
+      text: 
+      icon: pbj      
+  sidebar:
+    # Logo (from /images/logos/___.svg)
+    logo: fresh-square
+    sections:
+    - title: User
+      icon: user
+      links:
+      - text: Profile
+        url: /
+      - text: Account
+        url: /
+      - text: Settings
+        url: /
+    - title: Messages
+      icon: envelope
+      links:
+      - text: Inbox
+        url: /
+      - text: Compose
+        url: /
+    - title: Images
+      icon: image
+      links:
+      - text: Library
+        url: /
+      - text: Upload
+        url: /
+    - title: Settings
+      icon: cog
+      links:
+      - text: User settings
+        url: /
+      - text: App settings
+        url: /   
+    # Footer logos (from /images/logos/clients/___.svg)
+    clientlogos:
+    - flu
+    - Statin
+    - generic
+    - mm
+    - cardiac
+    - screening
     bulmalogo: false
     product:
     - text: Discover features
