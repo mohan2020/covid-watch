@@ -71,7 +71,7 @@ params:
       buttonText: 
   section3:
     title: Eligibility Criteria
-    subtitle: Preliminary Penn Medicine Guidelines
+    subtitle: Penn Medicine Guidelines
     tiles:
     - title: 
       icon: criteria2
@@ -82,7 +82,7 @@ params:
       text5: UP or UPHS employee using Penn Medicine On Demand
       text6: Patients who test positive through occupational health
       text7: Patients who test positive via tests ordered at by Penn clinicians (e.g., drive thru, ED)
-      text8: May later open up to other Penn Medicine patients
+      text8: Open to all Penn Medicine patients
       url: /
       buttonText:
   section10:
